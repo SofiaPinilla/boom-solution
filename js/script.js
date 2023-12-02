@@ -33,11 +33,11 @@ const printResult = (correctNumber) => {
     const isMatchNumber = correctNumber == selectedNumber
     if (isMatchNumber) {
         result.innerHTML = `<p class="green">Enhorabuena, has salvado el mundo!!! 👑</p>
-    <p> Tu numero ${selectedNumber} es igual a ${correctNumber}</p>
+        <p> Tu numero ${selectedNumber} es igual a ${correctNumber}</p>
     `
     } else {
         result.innerHTML = `<p class="red">La bomba ha estallado!!! ;(</p>
-    <p> Tu numero ${selectedNumber} no es igual a ${correctNumber}</p>
+        <p> Tu numero ${selectedNumber} no es igual a ${correctNumber}</p>
     `
     }
 }
