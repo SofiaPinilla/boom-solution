@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+.green {
+    color: #2ecc71;
+}
+
+.red {
+    color: #e74c3c;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+#restart {
+    all: unset;
+    background-color: #3498DB;
+    color: white;
+    padding: 10px;
+}
